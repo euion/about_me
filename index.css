@@ -1,0 +1,118 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+body {
+  font-family: "Gowun Batang", serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(171, 182, 228, 0.353),
+    rgba(255, 192, 203, 0.541)
+  );
+}
+header {
+  margin-top: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+  background: linear-gradient(90deg, rgb(182, 182, 243), rgb(255, 192, 203));
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list {
+  padding: 2%;
+  color: white;
+  list-style: none;
+  font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
+}
+.nav-list a {
+  padding: 2%;
+  color: white;
+  font-style: none;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
+  cursor: pointer;
+}
+.nav-list a:hover {
+  padding: 2%;
+  color: rgb(254, 134, 228);
+  list-style: none;
+  font-size: 25px;
+  font-family: "Black Han Sans", sans-serif;
+}
+#page0 {
+  text-align: center;
+  padding: 20%;
+  transition: all 1s;
+  background-color: rgba(195, 181, 238, 0.857);
+  color: rgba(68, 64, 64, 0.818);
+}
+#page0 h1 {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 50px;
+  color: rgb(32, 29, 57);
+  padding: 10px;
+}
+#a {
+  color: rgb(245, 202, 246);
+}
+#b {
+  color: rgb(198, 122, 245);
+}
+#page1 {
+  display: flex;
+  text-align: center;
+  padding: 10%;
+  transition: all 2s;
+  color: rgba(112, 96, 96, 0.642);
+}
+#page1 li {
+  list-style: none;
+}
+#page3 {
+  background-color: rgba(240, 248, 255, 0.63);
+  text-align: center;
+  padding: 10%;
+  transition: all 3s;
+  color: rgba(43, 35, 35, 0.642);
+}
+#page2 {
+  display: flex;
+  height: 200px;
+  font-family: "Gowun Batang", serif;
+  background-color: rgba(63, 61, 124, 0.268);
+  padding: 10%;
+  transition: all 3s;
+  color: rgba(43, 35, 35, 0.642);
+}
+#page2 ul {
+  padding-left: 20px;
+}
+#page2 li {
+  font-size: 20px;
+  color: rgb(81, 78, 78);
+  list-style: none;
+}
+#page3 a {
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+}
